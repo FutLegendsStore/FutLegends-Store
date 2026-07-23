@@ -168,3 +168,14 @@ header{
     color:#000;
     transform:translateY(-4px);
 }
+
+/* ===========================
+   PRODUCTO
+=========================== */
+
+.producto-principal{
+    width:320px;
+    max-width:90%;
+    margin:0 auto 30px;
+    border-radius:16px;
+}

@@ -127,4 +127,44 @@ header{
     transform:translateY(-3px);
     background:#f0cb5b;
 }
+/* ===========================
+   CATEGORÍAS
+=========================== */
 
+.categorias{
+    max-width:1200px;
+    margin:40px auto 70px;
+    padding:0 25px;
+    text-align:center;
+}
+
+.categorias h2{
+    font-size:2rem;
+    margin-bottom:35px;
+}
+
+.grid-categorias{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.categoria{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:110px;
+    border:1px solid #1d1d1d;
+    border-radius:14px;
+    background:#111;
+    color:#fff;
+    font-size:1.2rem;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.categoria:hover{
+    background:#d4af37;
+    color:#000;
+    transform:translateY(-4px);
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fut Legends Store</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#0d0d0d;
+            color:white;
+        }
+
+        header{
+            text-align:center;
+            padding:60px 20px;
+            background:linear-gradient(135deg,#000,#1a1a1a);
+        }
+
+        h1{
+            color:#FFD700;
+            font-size:42px;
+        }
+
+        header p{
+            margin-top:15px;
+            font-size:18px;
+            color:#ddd;
+        }
+
+        .boton{
+            display:inline-block;
+            margin-top:30px;
+            background:#FFD700;
+            color:black;
+            padding:15px 35px;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:bold;
+        }
+
+        .catalogo{
+            max-width:1200px;
+            margin:auto;
+            padding:50px 20px;
+        }
+
+        .catalogo h2{
+            margin-bottom:30px;
+            color:#FFD700;
+        }
+
+        .productos{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .producto{
+            background:#1b1b1b;
+            border-radius:15px;
+            overflow:hidden;
+            text-align:center;
+            padding-bottom:20px;
+        }
+
+        .producto img{
+            width:100%;
+        }
+
+        .producto h3{
+            margin-top:15px;
+        }
+
+        .precio{
+            font-size:24px;
+            color:#FFD700;
+            margin:10px 0;
+        }
+
+        .comprar{
+            display:inline-block;
+            background:#25D366;
+            color:white;
+            text-decoration:none;
+            padding:12px 25px;
+            border-radius:8px;
+            font-weight:bold;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+
+<h1>⚽ Fut Legends Store</h1>
+
+<p>Las mejores camisas de fútbol de Nicaragua</p>
+
+<a class="boton" href="#catalogo">
+Ver catálogo
+</a>
+
+</header>
+
+<section class="catalogo" id="catalogo">
+
+<h2>Productos destacados</h2>
+
+<div class="productos">
+
+<div class="producto">
+
+<img src="https://placehold.co/400x500?text=Real+Madrid">
+
+<h3>Real Madrid 2026/27</h3>
+
+<p class="precio">US$40</p>
+
+<a class="comprar"
+href="https://wa.me/505TU_NUMERO">
+Pedir por WhatsApp
+</a>
+
+</div>
+
+<div class="producto">
+
+<img src="https://placehold.co/400x500?text=Barcelona">
+
+<h3>Barcelona 2026/27</h3>
+
+<p class="precio">US$40</p>
+
+<a class="comprar"
+href="https://wa.me/505TU_NUMERO">
+Pedir por WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

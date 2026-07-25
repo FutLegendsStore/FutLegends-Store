@@ -2,11 +2,15 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Real Madrid Home 2026/27 | Fut Legends Store</title>
 
     <link rel="stylesheet" href="../style.css">
+
 </head>
 
 <body>
@@ -16,11 +20,15 @@
     <nav class="navbar">
 
         <a href="../index.html" class="logo">
+
             <img src="../IMG_4665.jpeg" alt="Fut Legends Store">
+
         </a>
 
         <ul class="menu">
+
             <li><a href="../index.html">Inicio</a></li>
+
         </ul>
 
     </nav>
@@ -31,59 +39,91 @@
 
 <section class="producto">
 
-    <div class="producto-imagen">
+<div class="producto-imagen">
 
-        <img
-            src="../images/products/real-madrid-home-26-27/IMG_6591.jpeg"
-            alt="Real Madrid Home 2026/27"
-            class="imagen-principal">
+<img
+id="imagenPrincipal"
+class="imagen-principal"
+src="../images/products/real-madrid-home-26-27/IMG_6591.jpeg"
+alt="Real Madrid Home 2026/27">
 
-    <div class="miniaturas">
+<div class="miniaturas">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6591.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6591.jpeg"
+alt="Frente">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6592.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6592.jpeg"
+alt="Atrás">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6595.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6595.jpeg"
+alt="Escudo">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6596.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6596.jpeg"
+alt="Cuello">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6597.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6597.jpeg"
+alt="Detalle">
 
-    <img src="../images/products/real-madrid-home-26-27/IMG_6600.jpeg">
+<img onclick="cambiarImagen(this)"
+src="../images/products/real-madrid-home-26-27/IMG_6600.jpeg"
+alt="Modelo">
 
 </div>
 
 </div>
 
-    <div class="producto-info">
+<div class="producto-info">
 
-        <h1>Real Madrid Home 2026/27</h1>
+<h1>Real Madrid Home 2026/27</h1>
 
-        <p class="version">
-            Player Version
-        </p>
+<p class="version">
 
-        <p class="precio">
-            US$40 | C$1,464
-        </p>
+Player Version
 
-        <p>
-            Disponible por encargo.
-        </p>
+</p>
 
-        <a href="https://wa.me/50557096303?text=Hola,%20quiero%20la%20camiseta%20Real%20Madrid%202026/27"
-           class="boton-principal">
+<p class="precio">
 
-            Pedir por WhatsApp
+US$40 | C$1,464
 
-        </a>
+</p>
 
-    </div>
+<p>
+
+Disponible por encargo.
+
+</p>
+
+<a
+href="https://wa.me/50557096303?text=Hola,%20quiero%20la%20camiseta%20Real%20Madrid%202026/27"
+class="boton-principal">
+
+Pedir por WhatsApp
+</div>
 
 </section>
-    
+
 </main>
+
+<script>
+
+function cambiarImagen(imagen){
+
+    document.getElementById("imagenPrincipal").src = imagen.src;
+
+}
+
+</script>
+<footer>
+
+<p>© 2026 Fut Legends Store. Todos los derechos reservados.</p>
+
+</footer>
 
 </body>
 

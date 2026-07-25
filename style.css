@@ -309,18 +309,20 @@ header{
 }
 .tallas{
 
-    font-size:20px;
+    font-size:16px;
 
-    font-weight:600;
+    color:#bfbfbf;
 
-    margin:25px 0;
+    margin:15px 0 25px;
 
-    color:#ffffff;
+    font-weight:400;
 
 }
 
 .tallas strong{
 
     color:#d4af37;
+
+    font-weight:600;
 
 }

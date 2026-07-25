@@ -179,3 +179,59 @@ header{
     margin:0 auto 30px;
     border-radius:16px;
 }
+
+/* ===========================
+   PÁGINA DE PRODUCTO
+=========================== */
+
+.producto{
+    max-width:1200px;
+    margin:70px auto;
+    padding:0 25px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.producto-imagen{
+    text-align:center;
+}
+
+.imagen-principal{
+    width:100%;
+    max-width:500px;
+    border-radius:18px;
+    border:1px solid #1d1d1d;
+}
+
+.producto-info h1{
+    font-size:2.7rem;
+    margin-bottom:15px;
+}
+
+.version{
+    color:#d4af37;
+    font-size:1.3rem;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.producto-info .precio{
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.producto-info p{
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+    .producto{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+}

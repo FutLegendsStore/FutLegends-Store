@@ -262,3 +262,48 @@ header{
     border-color:#d4af37;
     transform:scale(1.05);
 }
+/* ===========================
+   BOTÓN FLOTANTE WHATSAPP
+=========================== */
+
+.whatsapp-float{
+
+    position:fixed;
+
+    bottom:20px;
+
+    right:20px;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:#25D366;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:32px;
+
+    color:white;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+
+    z-index:9999;
+
+    transition:.3s;
+
+}
+
+.whatsapp-float:hover{
+
+    transform:scale(1.1);
+
+}

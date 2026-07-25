@@ -307,3 +307,20 @@ header{
     transform:scale(1.1);
 
 }
+.tallas{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    margin:25px 0;
+
+    color:#ffffff;
+
+}
+
+.tallas strong{
+
+    color:#d4af37;
+
+}
